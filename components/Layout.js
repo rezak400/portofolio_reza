@@ -1,4 +1,5 @@
 import Head from "next/head"
+import NavBar from "./NavBar"
 
 export default function Layout(props) {
     return (
@@ -6,6 +7,7 @@ export default function Layout(props) {
             <Head>
                 <title>{props.title}</title>
             </Head>
+            <NavBar />
             {props.children}
         </div>
     )
