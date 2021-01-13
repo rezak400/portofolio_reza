@@ -1,14 +1,27 @@
+import React, { Component } from 'react'
 import Head from "next/head"
-import NavBar from "./NavBar"
 
-export default function Layout(props) {
-    return (
+
+export default class Layout extends Component {
+    componentDidMount() {
+        if(typeof window !== 'undefined') {
+
+            window.WOW = require('wowjs');
+
+        }
+
+        new WOW.WOW().init();
+    }
+    render() {
+        return (
         <div>
             <Head>
-                <title>{props.title}</title>
+                <title>{this.props.title}</title>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"/>
             </Head>
-            <NavBar />
-            {props.children}
+            {this.props.children}
         </div>
-    )
+        )
+    }
 }
+
