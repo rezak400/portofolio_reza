@@ -16,7 +16,8 @@ export default class Layout extends Component {
         return (
             <div className="font-secondary">
                 <Head>
-                    <title>{this.props.title}</title>
+                    <title>{`Reza Portofolio - ${this.props.title}`}</title>
+                    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
                     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" />
                 </Head>
                 {this.props.children}
