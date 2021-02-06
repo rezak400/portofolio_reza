@@ -19,7 +19,7 @@ export default function Home() {
             {/* Headline */}
             <div data-wow-duration="2s" className="wow fadeInLeft md:w-1/2 md:pl-16 mt-8 md:mt-0 text-center md:text-left md:py-6 ">
               <h1 className="md:text-5xl text-3xl font-primary font-medium">Reza Dwiputra</h1>
-              <ul data-wow-delay="2s" className="md:list-disc ml-5">
+              <ul data-wow-delay="2s" className="md:list-disc sm:ml-5 ">
                 <li className=" text-base md:text-xl font-secondary mt-5 font-thin">Web Developer</li>
                 <li className="text-base md:text-xl font-secondary mt-1 font-thin">Writer</li>
                 <li className="text-base md:text-xl font-secondary mt-1 font-thin">Curious Person</li>
