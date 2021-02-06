@@ -17,7 +17,7 @@ export default (req, res) => {
         id: 1,
         title: "Shoe Store Page",
         category: ["Front-End"],
-        content: "E - Commerce static website made by me",
+        content: "E - Commerce static website made all by myself, UI/UX, pure native javascript",
         image: "https://github.com/rezak400/bootcamp_etech/blob/master/assets/images/landing.png?raw=true",
         url: "https://bootcamp-etech.vercel.app/src/login.html"
       },
@@ -25,7 +25,7 @@ export default (req, res) => {
         id: 3,
         title: "Blog Website",
         category: ["Front-End", "Back-End", "FullStack"],
-        content: "My first MERN stack website project",
+        content: "My first MERN stack website project, you can create blog for free in here :D",
         image: "https://github.com/rezak400/belajar_react/blob/master/src/assets/images/landing.png?raw=true",
         url: "https://belajar-react-reza.vercel.app/"
       },

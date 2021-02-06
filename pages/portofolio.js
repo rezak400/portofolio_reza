@@ -11,6 +11,7 @@ export default function About() {
     console.log(`liat isi state`, data)
 
     React.useEffect(() => {
+        setLoading(true)
         const link = `${window.location.origin}/api/work`
         console.log(`cek url`, link)
 
@@ -23,8 +24,12 @@ export default function About() {
         axios.get(link)
             .then(res => {
                 setData(res.data.data)
+                setLoading(false)
             })
-            .catch(err => console.log(err))
+            .catch(err => {
+                setLoading(false)
+                console.log(err)
+            })
 
     }, [])
 
@@ -76,7 +81,7 @@ export default function About() {
 
     if (isLoading == false) {
         return (
-            <Layout title="About">
+            <Layout title="Portofolio">
                 <section class=" body-font bg-primary min-h-screen overflow-hidden">
                     <div class="container px-10 py-10 mx-auto text-xs  wow fadeInRight overflow-hidden" data-wow-duration="2s">
                         <h1 className="text-2xl text-white font-primary text-center font-semibold" >{`My Workkk :D`}</h1>
