@@ -102,7 +102,7 @@ export default function About() {
         return (
             <Layout title="About">
                 <section class=" body-font bg-primary min-h-screen overflow-hidden">
-                    <div class="container px-10 py-10 mx-auto text-xs  wow fadeInRight overflow-hidden" data-wow-duration="2s">
+                    <div class="container px-10 py-10 mx-auto text-xs overflow-hidden" data-wow-duration="2s">
                         <p className="text-white text-xl">Loading...</p>
                     </div>
                 </section>
