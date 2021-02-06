@@ -11,7 +11,7 @@ module.exports = {
       },
       fontFamily: {
         primary: ['Poppins'],
-        seconday: ["Raleway"]
+        secondary: ["Raleway"]
       },
     },
   },
