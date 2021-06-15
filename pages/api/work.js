@@ -29,6 +29,14 @@ export default (req, res) => {
         image: "https://github.com/rezak400/belajar_react/blob/master/src/assets/images/landing.png?raw=true",
         url: "https://belajar-react-reza.vercel.app/"
       },
+      {
+        id: 4,
+        title: "Al - Ashr",
+        category: ["Front-End", "Back-End", "FullStack", "UI/UX"],
+        content: "Salat alarm project made by me and AbuAzis",
+        image: "https://github.com/rezak400/portofolio_reza/blob/main/public/screencapture-alarm-sholat-vercel-app-2021-06-15-19_50_25.png?raw=true",
+        url: "https://alarm-sholat.vercel.app/"
+      }
     ]
   })
 }
