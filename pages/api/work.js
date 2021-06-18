@@ -11,7 +11,7 @@ export default (req, res) => {
         category: ["Front-End"],
         content: "Company profile static website made by me and Abu Azis",
         image: "https://github.com/abuazis/Hooda-Landing/blob/master/src/assets/images/landing.png?raw=true",
-        url: "https://hooda-landing.vercel.app/"
+        url: "https://hooda-profile-nextjs.vercel.app/"
       },
       {
         id: 1,
