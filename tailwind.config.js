@@ -1,17 +1,17 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
+  purge: ["./src/pages/**/*.js", "./src/components/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
-        primary: "#211F21"
+        primary: "#211F21",
       },
       container: {
         center: true,
       },
       fontFamily: {
-        primary: ['Poppins'],
-        secondary: ["Raleway"]
+        primary: ["Poppins"],
+        secondary: ["Raleway"],
       },
     },
   },
@@ -19,4 +19,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
