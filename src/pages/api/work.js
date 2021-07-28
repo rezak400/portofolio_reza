@@ -12,7 +12,7 @@ export default (req, res) => {
         content: "Idul Adha information website",
         image:
           "https://github.com/rezak400/portofolio_reza/blob/main/public/idul-adha.png?raw=true",
-        url: "https://https://idul-adha.vercel.app/",
+        url: "https://idul-adha.vercel.app/",
       },
       {
         id: 1,
