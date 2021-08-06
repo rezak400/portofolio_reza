@@ -66,9 +66,9 @@ export default function Home() {
                 target="https://www.instagram.com/reza.dwip/"
               />
               <Button
-                title="@rezak400"
-                image="twitter.png"
-                target="https://twitter.com/rezak400"
+                title="rezak400"
+                image="linkedin.png"
+                target="https://www.linkedin.com/in/rezak400/"
               />
             </div>
 
