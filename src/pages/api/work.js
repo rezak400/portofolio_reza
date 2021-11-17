@@ -6,13 +6,20 @@ export default (req, res) => {
   res.json({
     data: [
       {
-        id: 12,
-        title: "Idul Adha",
-        category: ["Front-End", "UI/UX"],
-        content: "Idul Adha information website",
-        image:
-          "https://github.com/rezak400/portofolio_reza/blob/main/public/idul-adha.png?raw=true",
-        url: "https://idul-adha.vercel.app/",
+        id: 1,
+        title: "PON Papua XX",
+        category: ["Front-End"],
+        content: "PON Papua XX portal website",
+        image: "ponpapua.png",
+        url: "https://pon-papua-fe.vercel.app/",
+      },
+      {
+        id: 1,
+        title: "Yakes Pertamina",
+        category: ["Front-End"],
+        content: "Pertamina Health Foundation Dashboard",
+        image: "yakes.png",
+        url: "https://yakes-pertamina.vercel.app/login",
       },
       {
         id: 1,
@@ -23,6 +30,25 @@ export default (req, res) => {
           "https://github.com/abuazis/Hooda-Landing/blob/master/src/assets/images/landing.png?raw=true",
         url: "https://hooda-profile-nextjs.vercel.app/",
       },
+      {
+        id: 4,
+        title: "Al - Ashr",
+        category: ["Front-End", "Back-End", "FullStack", "UI/UX"],
+        content: "Salat alarm project made by me and AbuAzis",
+        image:
+          "https://github.com/rezak400/portofolio_reza/blob/main/public/screencapture-alarm-sholat-vercel-app-2021-06-15-19_50_25.png?raw=true",
+        url: "https://alarm-sholat.vercel.app/",
+      },
+      {
+        id: 12,
+        title: "Idul Adha",
+        category: ["Front-End", "UI/UX"],
+        content: "Idul Adha information website",
+        image:
+          "https://github.com/rezak400/portofolio_reza/blob/main/public/idul-adha.png?raw=true",
+        url: "https://idul-adha.vercel.app/",
+      },
+
       {
         id: 1,
         title: "Shoe Store Page",
@@ -42,15 +68,6 @@ export default (req, res) => {
         image:
           "https://github.com/rezak400/belajar_react/blob/master/src/assets/images/landing.png?raw=true",
         url: "https://belajar-react-reza.vercel.app/",
-      },
-      {
-        id: 4,
-        title: "Al - Ashr",
-        category: ["Front-End", "Back-End", "FullStack", "UI/UX"],
-        content: "Salat alarm project made by me and AbuAzis",
-        image:
-          "https://github.com/rezak400/portofolio_reza/blob/main/public/screencapture-alarm-sholat-vercel-app-2021-06-15-19_50_25.png?raw=true",
-        url: "https://alarm-sholat.vercel.app/",
       },
     ],
   });
